@@ -81,6 +81,7 @@ convert src.jpg -resize 256x256^ -gravity center -extent 256x256 resize-shortest
 
 ```
 identify -format '%w %h' img.png
+feh -l img.png
 ```
 
 
