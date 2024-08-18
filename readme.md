@@ -76,3 +76,11 @@ convert src.jpg -resize 256x256^ -gravity center -extent 256x256 resize-shortest
 
 ![resize-shortest-crop.png](resize-shortest-crop.png)
 
+
+## identify image
+
+```
+identify -format '%w %h' img.png
+```
+
+
