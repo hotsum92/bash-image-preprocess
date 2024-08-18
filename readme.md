@@ -15,7 +15,7 @@
 convert -size 512x768 -background "#C0C0C0" -fill "#FFFF00" caption:"L" src.jpg
 ```
 
-[src.jpg](src.jpg)
+![src.jpg](src.jpg)
 
 ## to png
 
