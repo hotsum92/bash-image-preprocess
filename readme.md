@@ -84,4 +84,25 @@ identify -format '%w %h' img.png
 feh -l img.png
 ```
 
+## sprite image
+
+##### horizontal
+
+```
+convert *.png -append sprite.png
+```
+
+##### vertical
+
+```
+convert *.png +append sprite.png
+```
+
+##### nxm
+
+```
+montage *.png  -geometry +0+0 -tile 2x2 sprite.png
+montage *.png  -geometry +0+0 -tile 2x sprite.png
+```
+
 
