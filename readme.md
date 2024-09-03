@@ -105,4 +105,17 @@ montage *.png  -geometry +0+0 -tile 2x2 sprite.png
 montage *.png  -geometry +0+0 -tile 2x sprite.png
 ```
 
+##### alpha
 
+```
+identify -format '%[opaque]' a.png # no alpha channel
+true
+identify -format '%[opaque]' b.png # has alpha channel
+false
+```
+
+##### deactivate alpha channel
+
+```
+convert -alpha deactivate a.png a.png
+```
